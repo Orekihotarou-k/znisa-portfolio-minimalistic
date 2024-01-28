@@ -35,5 +35,5 @@
 
 ### Font family
 
-- Inter - 400
+- Inter - 400, 500, 600, 700
 - Handlee - 400, 500, 600, 700
