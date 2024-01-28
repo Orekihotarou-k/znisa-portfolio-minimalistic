@@ -1,0 +1,84 @@
+/* ##### root ###### */
+:root {
+
+    --clr-primary-black: #0C0C0C; 
+    --clr-primary-white: #ffffff; 
+    --clr-primary-dark-grey: #706F6F; 
+
+    --clr-accent-yellow: #FFE68C;
+    --clr-accent-blue: #9DDCFF;
+    --clr-accent-pink: #F384D4;
+
+    --clr-neutral-yellow-border: #EECD56;
+    --clr-neutral-blue-border: #5AB5E8;
+    --clr-neutral-pink-border: #F384D4;
+
+    --ff-main: 'Inter', sans-serif;
+    --ff-main: 'Handlee', sans-serif;
+
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+
+    --fs-600: 64px;
+    --fs-500: 36px;
+    --fs-sub-heading-400: 32px;
+    --fs-400: 28px;
+    --fs-body-400: 24px;
+    --fs-small-400: 18px;
+    --fs-button-500: 17.901px;
+    --fs-smallest-500: 16px;
+}
+
+/* ##### reset ###### */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    line-height: 1;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    font-family: inherit;
+}
+
+ul, li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    font-style: italic;
+    color: var(--clr-accent-yellow);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: var(--ff-main);
+    font-weight: var(--fw-700);
+    font-size: var(--fs-body);
+    color: var(--clr-grayish-blue);
+    background-color: var(--clr-very-light-grayish-blue);  
+}
