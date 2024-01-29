@@ -408,6 +408,7 @@ button, .hero-btn {
     height: 100%;
     background: url(images/bg-pattern-desktop.png);
     background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     top: 0;
     left: 0;
